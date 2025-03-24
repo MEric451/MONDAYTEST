@@ -1,0 +1,11 @@
+<h2 mat-dialog-title>User Details</h2>
+<div mat-dialog-content class="user-details-content">
+  <p><strong>Name:</strong> {{ data.name }}</p>
+  <p><strong>Email:</strong> {{ data.email }}</p>
+  <p><strong>Phone:</strong> {{ data.phone }}</p>
+  <p><strong>Address:</strong> {{ data.address.street }}, {{ data.address.city }}</p>
+  <p><strong>Company:</strong> {{ data.company.name }}</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="closeDialog()">Close</button>
+</div>

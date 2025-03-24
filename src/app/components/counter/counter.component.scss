@@ -1,0 +1,46 @@
+.counter-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f5f5f5;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  
+    h2 {
+      font-size: 24px;
+      color: #333;
+    }
+  
+    .counter-value {
+      font-size: 28px;
+      font-weight: bold;
+      color: #007bff;
+      animation: scaleUp 0.3s ease-in-out;
+    }
+  
+    .button-group {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 15px;
+    }
+  
+    button {
+      font-size: 16px;
+      padding: 10px 15px;
+    }
+  }
+  
+  // Animation for smooth counter changes
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  

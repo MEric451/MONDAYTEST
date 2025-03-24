@@ -1,0 +1,70 @@
+/* Increase dialog width */
+.mat-dialog-container {
+    
+    background: #fff;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  h2.mat-dialog-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form field styling */
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  
+  /* Input field padding and text size */
+  mat-input {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  /* Mat-error styling */
+  mat-error {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  /* Dialog actions - aligning buttons */
+  mat-dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  
+  /* Primary button */
+  button[color="primary"] {
+    background-color: #1976d2;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 4px;
+  }
+  
+  button[color="primary"]:hover {
+    background-color: #1565c0;
+  }
+  
+  /* Cancel button */
+  button[mat-button] {
+    color: #555;
+    font-weight: bold;
+  }
+  
+  button[mat-button]:hover {
+    color: #333;
+  }
+  

@@ -1,0 +1,76 @@
+/* Styling the toolbar */
+mat-toolbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Flexbox layout for search and button */
+  .add_search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+  }
+  
+  /* Search container */
+  .search-container {
+    flex-grow: 1;
+    max-width: 1100px; /* Limits the width */
+    margin-left: 40px;
+  }
+  
+  /* Ensures search field is not too wide */
+  .search-container mat-form-field {
+    width: 100%;
+  }
+  
+  /* Search field border color */
+  mat-form-field {
+    --mat-form-field-outline-color: blue;
+    --mat-form-field-outline-width: 2px;
+  }
+  
+  /* Button container */
+  .actions {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+  }
+  
+  /* Styling the button */
+  .actions button {
+    white-space: nowrap;
+    margin-bottom: 25px;
+  }
+  
+  /* Table container */
+  .table-container {
+    margin: 20px;
+    overflow-x: auto;
+  }
+  
+  mat-table {
+    width: 100%;
+  }
+  
+  /* Header and cell styling */
+  mat-header-cell,
+  mat-cell {
+    padding: 12px;
+  }
+  
+  /* Hover effect for table rows */
+  mat-row:hover {
+    background-color: #e3f2fd; /* Light blue */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Button spacing */
+  button {
+    margin-right: 5px;
+  }
+  
