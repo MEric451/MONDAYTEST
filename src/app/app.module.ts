@@ -21,6 +21,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AddUserComponent } from './components/add-user/add-user.component';
 import { ToastrModule } from 'ngx-toastr';
 import { ConfirmDialogComponent } from './components/confirm-dialog/confirm-dialog.component';
+import { CompoComponent } from './compo/compo.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { ConfirmDialogComponent } from './components/confirm-dialog/confirm-dial
     UserDetailsComponent,
     CounterComponent,
     AddUserComponent,
-    ConfirmDialogComponent
+    ConfirmDialogComponent,
+    CompoComponent
   ],
   imports: [
     BrowserModule,
